@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class LinkedList <T> implements Iterable{
 
-    private class Node <T>{
+    public class Node <T>{
         T value;
         Node next;
         
